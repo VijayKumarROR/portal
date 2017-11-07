@@ -1,0 +1,31 @@
+<!-- <div class="container">
+	<div class="row">
+	   <%#= form_for @product do |p| %>
+		<div class="label-for">
+			<%#= p.label :user_id%>
+		</div>
+
+		<div class="label-field-pair">
+      <label for="employee_category"><%#= t('Product') %><span class="necessary-field"></span> </label>
+      <div class="text-input-bg"><%#= select :product, :id, Product.all.collect { |c| [c.name, c.id] },
+        {:prompt => "#{t('select')}"},
+        {:onChange => "#{remote_function(:url => {:action => "update_user"}, :with => "'user_id='+value" ,:before => "$('loading').show();",
+        :success => "$('loading').hide();")}"} %>  <%#= image_tag("loader.gif",
+          :align => "absmiddle",
+          :border => 0,
+          :id => "loading",
+          :style =>"display: none;" ) %></div>
+        </div>
+       
+        <div class="label-field-pair">
+          <label for="employee_position"><%#= t('User') %> <span class="necessary-field"></span></label>
+          <div class="text-input-bg"><div id="state_order1"> <%#= render :partial => 'user_order', :object => @user %></div></div>
+        </div> 
+        
+        <div class="label-field-pair">
+          <label for="employee_position"><%#= t('category') %> <span class="necessary-field"></span></label>
+          <div class="text-input-bg"><div id="city_order1"> <%#= render :partial => 'cat_order', :object => @category %></div></div>
+        </div>
+	</div>
+</div> -->
+

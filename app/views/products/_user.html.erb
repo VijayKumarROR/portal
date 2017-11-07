@@ -1,0 +1,7 @@
+<div class="container">
+	<div class="row">
+	    <%= %>
+		<%= select_tag "user", options_from_collection_for_select(User.all, "id", "name") %>
+	</div>
+</div>
+
